@@ -139,6 +139,8 @@ You can also install your plugins, for instance, via pathogen you can install [v
 
 	cd ~/.vim_runtime
 	git clone git://github.com/tpope/vim-rails.git my_plugins/vim-rails
+	For commenting Matlab file 
+	git clone https://github.com/tdehaeze/matlab-vim
 
 
 ## Key Mappings
