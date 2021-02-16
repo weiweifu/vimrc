@@ -238,6 +238,8 @@ let g:lasttab = 1
 nmap <Leader>tl :exe "tabn ".g:lasttab<CR>
 au TabLeave * let g:lasttab = tabpagenr()
 
+" snipMate deprecate
+let g:snipMate = { 'snippet_version' : 1  }
 
 " Opens a new tab with the current buffer's path
 " Super useful when editing files in the same directory
